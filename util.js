@@ -6,7 +6,7 @@ self.delay = (t) => {
 };
 
 // recursive function that either returns the arg or iterates through its values
-// there are obvious edge cases in this execution an example would be a Date object
+// there are obvious edge cases in this execution, an example would be a Date object
 self.deepCopy = (src) => {
   if (typeof src !== "object" || src === null) {
     return src;
@@ -28,7 +28,7 @@ self.deepCopy = (src) => {
 };
 
 self.asyncCall = async (fn) => {
-	console.log("Calling an async function")
-	const result = await fn
-	await console.log("Result is ", result)
-}
+  console.log("Calling an async function");
+  const result = await fn;
+  await console.log("Result is ", result);
+};

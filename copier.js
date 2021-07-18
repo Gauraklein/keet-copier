@@ -5,7 +5,7 @@ module.exports = class Copier {
     this.src = src;
   }
   get() {
-	// returns a promise which returns the original argument after 1 second
+    // returns a promise which returns the original argument after 1 second
     return util.delay(1000).then(() => {
       return this.src;
     });

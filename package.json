@@ -2,9 +2,10 @@
   "name": "keet-copier",
   "version": "1.0.0",
   "description": "A coding exercise for keet health",
-  "main": "copy.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node copy.js"
+    "test": "node copy.js",
+    "start": "node index.js"
   },
   "author": "Gaura Klein",
   "license": "ISC"

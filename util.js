@@ -26,3 +26,9 @@ self.deepCopy = (src) => {
     }, {});
   }
 };
+
+self.asyncCall = async (fn) => {
+	console.log("Calling an async function")
+	const result = await fn
+	await console.log("Result is ", result)
+}
